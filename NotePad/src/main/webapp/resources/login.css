@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+body {
+	background-color: #f5f5f5;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 50%;
+	margin: -50px 0 0 -50px;
+}
+
+.in-line {
+	width: 50%;
+	height: 50%;
+}
+
+input {
+	margin: 0;
+}
+
+input[type='text'] {
+	width: 70%;
+	height: 100%;
+	border: none;
+	font-size: 1em;
+	padding-left: 5px;
+	font-style: oblique;
+	display: inline;
+	outline: none;
+	box-sizing: border-box;
+	color: black;
+}
+
+input[type='password'] {
+	width: 70%;
+	height: 100%;
+	border: none;
+	font-size: 1em;
+	padding-left: 5px;
+	font-style: oblique;
+	display: inline;
+	outline: none;
+	box-sizing: border-box;
+	color: black;
+}
+
+input[type="submit"] {
+	width: 30%;
+	height: 100%;
+	background-color: lightgray;
+	border: none;
+	background-color: white;
+	font-size: 1em;
+	color: #042AaC;
+	outline: none;
+	display: inline;
+	margin-left: -10px;
+	box-sizing: border-box;
+}
+
+input[type="submit"]:hover {
+	background-color: lightgray;
+}
